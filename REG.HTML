@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="app -css.css">
+</head>
+<body>
+    <tr></tr>
+    <table width="100%">
+        <tr><td> <img src=ranga.jpg
+          align="left" width="100px"></td>
+        <td>
+          <h1><center><b>K.S.R COLLEGE OF ENGINEERING</b></h1>
+          <h3><center>(AUTONOMOUS)</h3>
+        <h3><center>K.S.R. Kalvi Nagar, Tiruchengode - 637 215 , Namakkal (D.t), Tamilnadu, India.</h3></td>
+          <td><img src=paiyan.jpg   
+            align="right" width="100px" height="120px"></td>
+        </tr>
+        <table bgcolor="black"width="100%"><th></th><th></th><th></th><th></th></table>
+        <br>
+        </table>
+    <div class="city1">
+<center>
+<form action="new.php"method="post">
+    <h2><u>REGISTER</u></h2><br>
+  <label for="username">Roll-Number:</label>
+  <input type="number" id="Roll-Number" name="Roll-Number" required placeholder="Roll-Number" aria-required="true"><br><br>
+  <label for="Email">Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+  <input type="text" id="Email" name="Email"required placeholder="Email"><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="myInput" name="Setpassword" required placeholder="password"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+    </script>
+  <br>
+  <br>
+  <input type="Submit" value="Submit"></form>
+  <br>
+<p>Already have an account?
+    <a href="app-html.html">LOGIN</a></p>
+</center>
+    </div>
+</body>
+</html>
+
